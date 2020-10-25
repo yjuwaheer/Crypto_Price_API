@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    color: blanchedalmond;
+    background-color: black;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coins {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coinSingle {
+    padding: 5px 0;
+    width: 50%;
+}
+
+.coinSingle h4 {
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.coinSingle span {
+    font-weight: 700;
+    color: darkorange;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.footer > p > a:hover {
+    color: orange;
+}
